@@ -210,7 +210,7 @@ class OpenPayU_Util
      * @param array $outputFields
      * @return string
      */
-    public static function convertArrayToHtmlForm($array, $namespace = "", &$outputFields)
+    public static function convertArrayToHtmlForm($array, $namespace, &$outputFields)
     {
         $i = 0;
         $htmlOutput = "";
